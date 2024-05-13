@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Page</title>
+    <style>
+        /* Base Styles */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            background-color: #f2f2f2;
+            overflow-x: hidden;
+        }
+
+        /* Container for all content to center align */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        /* Styling for images */
+        img {
+            width: 90%;  /* Full width */
+            max-width: 900px;  /* Maximum width but scalable */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+            margin-bottom: 30px; /* Adding space between the image and button */
+        }
+
+        /* Button Styling */
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background-color: #007aff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            margin-bottom: 20px;
+        }
+
+        /* Hover and Active States for Button */
+        button:hover, button:active {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        /* Minimalist Footer */
+        footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        /* Additional descriptive text */
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin-top: 0;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Delete1.1.png" alt="AI Generated Content">
+        <p>Explore the depth of personalization with our latest AI innovations.</p>
+        <button onclick="window.location.href='index.html';">Back to Home</button>
+        <footer>
+            © 2024 Your Company Name. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
